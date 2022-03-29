@@ -7,4 +7,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "CurrencyComparator"
-include ':app'
+include(":app")

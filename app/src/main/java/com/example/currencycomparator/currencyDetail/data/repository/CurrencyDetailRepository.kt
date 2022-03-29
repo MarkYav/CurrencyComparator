@@ -49,7 +49,7 @@ class CurrencyDetailRepository @Inject constructor(
             )
         } catch (e: IOException) {
             Resource.Failure(
-                message = "Couldn't reach server. Check your internet connection.",
+                message = "Couldn"t reach server. Check your internet connection.",
                 reason = e
             )
         } catch (e: Exception) {
